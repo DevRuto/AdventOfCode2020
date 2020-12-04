@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Linq;
 
@@ -14,12 +15,14 @@ namespace AdventOfCode2020.Day
 
         public void SolvePart1()
         {
-            
+
+            Console.WriteLine("Day X\t> Part 1\n\t\t");
         }
 
         public void SolvePart2()
         {
             
+            Console.WriteLine("\t> Part 2");
         }
 
         public static void Run()
