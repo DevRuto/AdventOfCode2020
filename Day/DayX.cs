@@ -3,11 +3,11 @@ using System.Linq;
 
 namespace AdventOfCode2020.Day
 {
-    public class DayXTemplate : IDay
+    public class DayX : IDay
     {
         private readonly string[] _inputs;
         
-        public DayXTemplate()
+        public DayX()
         {
             _inputs = File.ReadAllLines("./data/dayx.txt").Where(line => !string.IsNullOrEmpty(line)).ToArray();
         }
@@ -24,7 +24,7 @@ namespace AdventOfCode2020.Day
 
         public static void Run()
         {
-            var day = new DayXTemplate();
+            var day = new DayX();
             day.SolvePart1();
             day.SolvePart2();
         }
