@@ -5,11 +5,11 @@ using System.Linq;
 
 namespace AdventOfCode2020.Day
 {
-    public class DayTwo : IDay
+    public class Day2 : IDay
     {
         private readonly string[] _inputs;
 
-        public DayTwo()
+        public Day2()
         {
             _inputs= File.ReadAllLines("./data/day2.txt").Where(line => !string.IsNullOrEmpty(line)).ToArray();
         }
@@ -56,7 +56,7 @@ namespace AdventOfCode2020.Day
 
         public static void Run()
         {
-            var day = new DayTwo();
+            var day = new Day2();
             day.SolvePart1();
             day.SolvePart2();
         }
