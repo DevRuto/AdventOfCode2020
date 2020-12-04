@@ -8,6 +8,7 @@ namespace AdventOfCode2020
         static void Main(string[] args)
         {
             DayOne.Run();
+            DayTwo.Run();
         }
     }
 }
