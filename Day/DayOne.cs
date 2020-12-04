@@ -11,7 +11,7 @@ namespace AdventOfCode2020.Day
 
         public DayOne()
         {
-            _inputs.AddRange(File.ReadAllLines("./data/day1.txt").Select(line => int.Parse(line)));
+            _inputs.AddRange(File.ReadAllLines("./data/day1.txt").Where(line => !string.IsNullOrEmpty(line)).Select(line => int.Parse(line)));
             _inputs.Sort();
             _inputs.Reverse();
         }
