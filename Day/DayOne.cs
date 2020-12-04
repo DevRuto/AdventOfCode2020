@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AdventOfCode2020.Day
 {
-    public class DayOne
+    public class DayOne : IDay
     {
         private readonly List<int> _inputs = new List<int>();
 
