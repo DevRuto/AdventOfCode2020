@@ -9,6 +9,7 @@ namespace AdventOfCode2020
         {
             DayOne.Run();
             DayTwo.Run();
+            DayThree.Run();
         }
     }
 }
