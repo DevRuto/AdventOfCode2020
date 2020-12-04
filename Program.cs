@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using AdventOfCode2020.Day;
 
 namespace AdventOfCode2020
@@ -7,9 +8,10 @@ namespace AdventOfCode2020
     {
         static void Main(string[] args)
         {
-            Day1.Run();
-            Day2.Run();
-            Day3.Run();
+            // Day1.Run();
+            // Day2.Run();
+            // Day3.Run();
+            Day4.Run();
         }
     }
 }
