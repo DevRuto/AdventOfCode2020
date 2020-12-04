@@ -42,7 +42,7 @@ namespace AdventOfCode2020.Day
                     list.Remove(num1);
                 }
             } while (list.Count >= 2);
-            Console.WriteLine("Day 1 Part 1\n\t{0} * {1} = {2}", num1, num2, num1 * num2);
+            Console.WriteLine("Day 1\t> Part 1\n\t\t{0} * {1} = {2}", num1, num2, num1 * num2);
         }
 
         public void SolvePart2()
@@ -80,7 +80,7 @@ namespace AdventOfCode2020.Day
                 }
                 list.Remove(num1);
             } while (list.Count >= 3);
-            Console.WriteLine("Day 1 Part 2\n\t{0} * {1} * {2} = {3}", num1, num2, num3, num1 * num2 * num3);
+            Console.WriteLine("\tPart 2\n\t\t{0} * {1} * {2} = {3}", num1, num2, num3, num1 * num2 * num3);
         }
 
         public static void Run()

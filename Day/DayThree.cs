@@ -38,7 +38,7 @@ namespace AdventOfCode2020.Day
                 if (x >= maxX)
                     x -= maxX;
             }
-            Console.WriteLine("Day Three Part 1: {0} trees encountered", treeEncounters);
+            Console.WriteLine("Day 3\t> Part 1\n\t\t{0} trees encountered", treeEncounters);
         }
 
         public void SolvePart2()
@@ -79,16 +79,16 @@ namespace AdventOfCode2020.Day
                 }
                 lstTreeEncounters.Add(treeEncounters);
             }
-            Console.WriteLine("Day Three Part 2");
+            Console.WriteLine("\t> Part 2");
             long product = lstTreeEncounters[0];
             for (int i = 0; i < lstTreeEncounters.Count; i++)
             {
-                Console.WriteLine("\t{0}. {1} trees encountered", i, lstTreeEncounters[i]);
+                Console.WriteLine("\t\t{0}. {1} trees encountered", i + 1, lstTreeEncounters[i]);
                 if (i != 0)
                     product *= (long)lstTreeEncounters[i];
             }
             
-            Console.WriteLine("\tProduct: {0}", product);
+            Console.WriteLine("\t\tProduct: {0}", product);
         }
 
         public static void Run()

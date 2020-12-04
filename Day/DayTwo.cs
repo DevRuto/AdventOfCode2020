@@ -31,7 +31,7 @@ namespace AdventOfCode2020.Day
                 if (letterCount >= min && letterCount <= max)
                     valid++;
             }
-            Console.WriteLine("Day Two Part 1: {0} valid passwords", valid);
+            Console.WriteLine("Day 2\t> Part 1\n\t\t{0} valid passwords", valid);
         }
 
         public void SolvePart2()
@@ -51,7 +51,7 @@ namespace AdventOfCode2020.Day
                 if (password[pos1] == letter ^ password[pos2] == letter)
                     valid++;
             }
-            Console.WriteLine("Day Two Part 2: {0} valid passwords", valid);
+            Console.WriteLine("\t> Part 2\n\t\t{0} valid passwords", valid);
         }
 
         public static void Run()
