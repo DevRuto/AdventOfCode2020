@@ -12,6 +12,7 @@ namespace AdventOfCode2020.Day
         {
             _inputs = File.ReadAllLines("./data/day3.txt").Where(line => !string.IsNullOrEmpty(line)).ToArray();
         }
+        
         public void SolvePart1()
         {
             int maxX = _inputs[0].Length;
