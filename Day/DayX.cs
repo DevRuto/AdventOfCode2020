@@ -16,13 +16,13 @@ namespace AdventOfCode2020.Day
         public void SolvePart1()
         {
 
-            Console.WriteLine("Day X\t> Part 1\n\t\t");
+            Console.WriteLine("Day X\t> Part 1\n\t\t ");
         }
 
         public void SolvePart2()
         {
             
-            Console.WriteLine("\t> Part 2");
+            Console.WriteLine("\t> Part 2\n\t\t ");
         }
 
         public static void Run()
