@@ -25,7 +25,7 @@ namespace AdventOfCode2020.Day
                 if (!_requiredFields.Except(existingFields).Any())
                     valid++;
             }
-            Console.WriteLine("Day X\t> Part 1\n\t\t {0} passports are valid", valid);
+            Console.WriteLine("Day 4\t> Part 1\n\t\t {0} passports are valid", valid);
         }
 
         public void SolvePart2()

@@ -48,7 +48,7 @@ namespace AdventOfCode2020.Day
         public static void Run()
         {
             var day = new Day7();
-            // day.SolvePart1();
+            day.SolvePart1();
             day.SolvePart2();
         }
 
