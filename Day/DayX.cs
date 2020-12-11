@@ -13,6 +13,13 @@ namespace AdventOfCode2020.Day
             _inputs = File.ReadAllLines("./data/dayx.txt").Where(line => !string.IsNullOrEmpty(line)).ToArray();
         }
 
+        public static void Run()
+        {
+            var day = new DayX();
+            day.SolvePart1();
+            day.SolvePart2();
+        }
+
         public void SolvePart1()
         {
 
@@ -23,13 +30,6 @@ namespace AdventOfCode2020.Day
         {
             
             Console.WriteLine("\t> Part 2\n\t\t ");
-        }
-
-        public static void Run()
-        {
-            var day = new DayX();
-            day.SolvePart1();
-            day.SolvePart2();
         }
     }
 }
